@@ -3,13 +3,13 @@ import time
 import pyperclip
 
 shortcuts = {
-	"b": "barcellona",
-	"m": "lorem ipsum",
+	"4": "barcellona",
+	"5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
 	"6": "3331122333"
 }
 
 for key in shortcuts:
-	assert len(shortcuts[key]) == 1, "Shortcuts must be one character long"
+	assert len(key) == 1, "Shortcuts must be one character long"
 
 current_keys = {keyboard.Key.ctrl: False, keyboard.Key.cmd: False}
 
