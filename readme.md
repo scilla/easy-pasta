@@ -13,7 +13,7 @@ If the Cmd key is held down while pressing a shortcut key, the corresponding tex
 ## Installation
 
 ```
-pip install pynput pyperclip
+pip install -r requirements
 ```
 
 ## Usage
